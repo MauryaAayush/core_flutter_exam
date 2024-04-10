@@ -47,7 +47,7 @@ class _Add_screenState extends State<Add_screen> {
                 });
 
               },
-              child: Text("Remove")),
+              child: const Text("Remove")),
 
           Student_data("Enter grid", txtgrid),
           Student_data("Enter name", txtname),
