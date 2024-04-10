@@ -1,3 +1,5 @@
+import 'package:core_flutter_exam/views/screens/Add_Screen/Add_screen.dart';
+import 'package:core_flutter_exam/views/screens/Home_Screen/Home_Screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,6 +24,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
 
       routes: {
+          '/' : (context) => Home_Screen(),
+          'second' : (context) => Add_screen(),
+          'third' : (context) => Add_screen(),
 
       },
 
