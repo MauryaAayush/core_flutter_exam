@@ -52,7 +52,7 @@ class _Add_screenState extends State<Add_screen> {
           Student_data("Enter grid", txtgrid),
           Student_data("Enter name", txtname),
           Student_data("Enter Std", txtstd),
-          SizedBox(height: 100),
+          const SizedBox(height: 100),
           ElevatedButton(
             onPressed: () {
 
